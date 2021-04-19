@@ -112,6 +112,24 @@
 <a href="https://github.com/imfunniee" target="_blank">Based on gitfolio by imfunniee</a>
 </div>
 </div>
+<script src="assets/js/jquery-3.4.1.min.js" type="7bdfbec306ace16f58066a78-text/javascript"></script>
+<script src="assets/js/magic-grid-3.2.4.min.js" type="7bdfbec306ace16f58066a78-text/javascript"></script>
+<script type="7bdfbec306ace16f58066a78-text/javascript">
+    (async function () {
+        const magicProjectsGrid = new MagicGrid({
+            container: "#work_section",
+            animate: false,
+            gutter: 30, // default gutter size
+            static: true,
+            useMin: false,
+            maxColumns: 2,
+            useTransform: true
+        });
+        $("document").ready(async () => {
+            magicProjectsGrid.listen();
+        });
+    })();
+</script>
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "b2a183652ad34788b25c4d437a1a0763"}' type="7bdfbec306ace16f58066a78-text/javascript"></script>
 <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="7bdfbec306ace16f58066a78-|49" defer=""></script><script type="text/javascript">(function(){window['__CF$cv$params']={r:'640dda5afb3d4bdd',m:'ad3be666e4e49d9cfaf4099557b82e675d3e2ae5-1618580714-1800-AcVw9Y75loRf6dOWAJnDM6zAsdKEjeOHwSVdfNlpeaqRBbRP9Bj4KO2nSMnw9EPVRACB4asIbj0OrObiR0ussFPk8FBfs6/xeTg8aYKDoh4ABaE62nDQaChc5yVM8fax2w==',s:[0x4a17e7b1b3,0xc6e31769fb],}})();</script></body>
 </html>
