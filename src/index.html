@@ -114,41 +114,17 @@
 </div>
 <script src="assets/js/jquery-3.4.1.min.js" type="7bdfbec306ace16f58066a78-text/javascript"></script>
 <script src="assets/js/magic-grid-3.2.4.min.js" type="7bdfbec306ace16f58066a78-text/javascript"></script>
-<script type="text/javascript">
-    setTimeout(function() {
-      document.getElementById("loading").classList.add("animated");
-      document.getElementById("loading").classList.add("fadeOut");
-      setTimeout(function() {
-        document.getElementById("loading").classList.remove("animated");
-        document.getElementById("loading").classList.remove("fadeOut");
-        document.getElementById("loading").style.display = "none";
-      }, 800);
+<script type="7bdfbec306ace16f58066a78-text/javascript">
+    setTimeout(async function () {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(async function () {
+            document.getElementById("loading").classList.remove("animated");
+            document.getElementById("loading").classList.remove("fadeOut");
+            document.getElementById("loading").style.display = "none";
+        }, 800);
     }, 1500);
-    $.getJSON("blog.json", function(blog) {
-      blog = blog || [];
-      if (blog.length == 0) {
-        return (document.getElementById("blog_section").style.display =
-          "none");
-      }
-      for (var i = 0; i < blog.length; i++) {
-        $("#blogs").append(`
-          <a href="./blog/${blog[i].url_title}/" target="_blank">
-              <section>
-                  <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
-                  <div class="blog_container">
-                      <div class="section_title">${blog[i].title}</div>
-                      <div class="about_section">
-                          ${blog[i].sub_title}
-                      </div>
-                  </div>
-              </section>
-          </a>
-          `);
-      }
-    }).fail(function() {
-      return (document.getElementById("blog_section").style.display = "none");
-    });
-  </script>
+</script>
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "b2a183652ad34788b25c4d437a1a0763"}' type="7bdfbec306ace16f58066a78-text/javascript"></script>
 <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="7bdfbec306ace16f58066a78-|49" defer=""></script><script type="text/javascript">(function(){window['__CF$cv$params']={r:'640dda5afb3d4bdd',m:'ad3be666e4e49d9cfaf4099557b82e675d3e2ae5-1618580714-1800-AcVw9Y75loRf6dOWAJnDM6zAsdKEjeOHwSVdfNlpeaqRBbRP9Bj4KO2nSMnw9EPVRACB4asIbj0OrObiR0ussFPk8FBfs6/xeTg8aYKDoh4ABaE62nDQaChc5yVM8fax2w==',s:[0x4a17e7b1b3,0xc6e31769fb],}})();</script></body>
 </html>
