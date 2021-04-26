@@ -548,13 +548,13 @@ body {
             rgba(10, 10, 10, 0.3),
             rgb(10, 10, 10)
     ),
-    url("https://images3.alphacoders.com/102/thumb-1920-1024269.jpg");
+    url("https://images7.alphacoders.com/677/thumb-1920-677362.jpg");
     --background-background: linear-gradient(
             0deg,
             rgba(10, 10, 10, 1),
             rgba(10, 10, 10, 0.6)
     ),
-    url("https://images3.alphacoders.com/102/thumb-1920-1024269.jpg") center center fixed;
+    url("https://images7.alphacoders.com/677/thumb-1920-677362.jpg") center center fixed;
     --height: 50vh;
 }
 
@@ -585,6 +585,6 @@ body {
                 rgba(10, 10, 10, 1),
                 rgba(10, 10, 10, 0)
         ),
-        url("https://images3.alphacoders.com/102/thumb-1920-1024269.jpg") !important;
+        url("https://images7.alphacoders.com/677/thumb-1920-677362.jpg") !important;
     }
 }
