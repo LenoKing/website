@@ -548,13 +548,13 @@ body {
             rgba(10, 10, 10, 0.3),
             rgb(10, 10, 10)
     ),
-    url("https://images.pexels.com/photos/3285471/pexels-photo-3285471.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    url("https://cdn.tristan.cf/img/banner/AmongTrees2.jpg");
     --background-background: linear-gradient(
             0deg,
             rgba(10, 10, 10, 1),
             rgba(10, 10, 10, 0.6)
     ),
-    url("https://images.pexels.com/photos/3285471/pexels-photo-3285471.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260") center center fixed;
+    url("https://cdn.tristan.cf/img/banner/AmongTrees2.jpg") center center fixed;
     --height: 50vh;
 }
 
@@ -585,6 +585,6 @@ body {
                 rgba(10, 10, 10, 1),
                 rgba(10, 10, 10, 0)
         ),
-        url("https://images.pexels.com/photos/3285471/pexels-photo-3285471.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260") !important;
+        url("https://cdn.tristan.cf/img/banner/AmongTrees2.jpg") !important;
     }
 }
